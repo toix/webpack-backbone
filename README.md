@@ -1,21 +1,22 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+It is test-task on position Frontend-developer in Neuffer Fenster + Türen GmbH company
 
-### What is this repository for? ###
+### Main task ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+You need to create adaptive page according requirements defined below:
+* Main page - show list of all fotos
+* Click on each foto will open modal window with big foto and list of comments
+* User can add new comment
 
-### How do I get set up? ###
+List of API-endpoints you can find below.
+Design 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### List of endpoints ###
+
+* GET `https://boiling-refuge-66454.herokuapp.com/images` - return list of all fotos
+* GET `https://boiling-refuge-66454.herokuapp.com/images/:imageId` - return URL to the big foto and list of the comments
+* POST `https://boiling-refuge-66454.herokuapp.com/images/:imageId/comments` - endpoint to save comment (answer 204 - everything is okay, NB! comment will not be saved)
 
 ### Contribution guidelines ###
 
